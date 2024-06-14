@@ -86,3 +86,7 @@ README.md
 - If it doesn't automatically compiled, refer to this [Book Ch.0](https://docs.google.com/document/d/1EafdqpKWpYpU08w8AmKrEDCedrh8PvnGJ3bJWZEeFPU/edit) for installing tools and running QEMU reference.
 - To create a disk image, use `make disk` command, this will create a new disk image and delete the last one.
 - To insert the shell, use `make insert-shell` command, this will insert a shell into the user space, and also some text files.
+
+## Using the Search Command Feature
+- The disk originally have tes.txt and stima.txt in the root folder, you can adjust and create the filesystem using the copy `cp` and make directory `mkdir` commands.
+- Type `search1 [input string]` or `search2 [input string]` to search for string in filesystem .txt files under the current directory using DLS with either Boyer-Moore (1) or KMP (2) Algorithm.
