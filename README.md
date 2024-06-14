@@ -81,7 +81,8 @@ README.md
 ```
 
 ## Running The OS
-- Clone this repository and make sure to be in the right directory
+- Clone this repository and make sure to be in the right directory. If use windows, you can use WSL (Windows Subsystem for Linux).
 - Run the makefile using make command, all of the dependencies will automatically be compiled, and a kernel window will pop up using the QEMU Emulator.
+- If it doesn't automatically compiled, refer to this [Book Ch.0](https://docs.google.com/document/d/1EafdqpKWpYpU08w8AmKrEDCedrh8PvnGJ3bJWZEeFPU/edit) for installing tools and running QEMU reference.
 - To create a disk image, use `make disk` command, this will create a new disk image and delete the last one.
 - To insert the shell, use `make insert-shell` command, this will insert a shell into the user space, and also some text files.
